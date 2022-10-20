@@ -33,12 +33,14 @@
 
 .hero-elements button {
     margin-left: 20%;
-    width: 10%;
+    width: 15%;
     padding: 1%;
     background: #C73050;
     color: #ffffff;
     font-family: 'Roboto';
     font-size: 1em;
+    border-radius: 8px;
+    border-style: solid;
 }
 
 
@@ -49,19 +51,16 @@
    text-align: center;
     width: 100%;
     padding-top: 5%;
+    font-family: 'Audiowide';
+    font-size: 1.5em;
+    color: #ffffff;
+    line-height: 1.6;
 }
 
 .first-content img {
     transform: rotate(90deg);
     width: 15%;
     padding-top: 5%;
-}
-
-.first-content {
-    font-family: 'Audiowide';
-    font-size: 1.5em;
-    color: #ffffff;
-    line-height: 1.6;
 }
 
 .flower-images {
@@ -116,6 +115,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Roboto'; 
     padding: 1%;
 }
@@ -128,6 +128,50 @@ footer {
     color:#ffffff;
 }
 
+/* Responsive layout for mobile */
+
+@media (max-width: 768px) {
+   /* html {
+        width: 100%;
+    } */
+
+    .hero-elements h1 {
+        font-size: 1.5em;
+        padding-bottom: 10%;
+    }
+    
+    .hero-elements button {
+        width: 30%;
+        margin-left: 10%;
+    }
+
+    .first-content {
+        font-size: 1em;
+        padding: 10%;
+    }
+
+    .first-content h2 {
+        padding-bottom: 8%;
+    }
+
+    .img-arrow {
+        width: 20%;
+        margin-left: 10%;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+    }
+
+    .copyright {
+        font-size: 0.5em;
+        
+    }
+
+    
+
+
+}
 
 
 
