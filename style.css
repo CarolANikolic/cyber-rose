@@ -82,8 +82,13 @@
     justify-content: space-around;
 }
 
-.button-envelope {
-    width: 15%;
+.button-email a {
+    width: 20%;
+}
+
+.button-email a img {
+    width: 20%;
+   padding-left: 40%;
 }
 
 footer {
