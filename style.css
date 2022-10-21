@@ -79,16 +79,17 @@
 .button-email {
     width: 100%;
     display: flex;
-    justify-content: space-around;
 }
 
 .button-email a {
-    width: 20%;
+    width: 100%;
+    align-items: center;   
 }
 
 .button-email a img {
-    width: 20%;
-   padding-left: 40%;
+    width: 30%;
+    padding-left: 35%;
+    padding-bottom: 10%; 
 }
 
 footer {
@@ -97,8 +98,7 @@ footer {
 
 .footer-main-content {
     width: 100%; 
-    display: flex;
-    justify-content: space-around;
+    display: flex; 
 }
 
 .img-arrow {
