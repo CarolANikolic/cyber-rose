@@ -7,6 +7,7 @@
     <meta description="Cyber Rose digital flowers">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -15,58 +16,63 @@
 </head>
 
 <body>
+
+    <!-- Landing page with a hero image and title -->
     <main class="main-hero">
         <div class="hero-elements">
             <h1>Send a Cyber Fower to Your Cyber One</h1>
-            <button type="button">Send flower</button>
-        </div>
-            
+        </div>      
     </main>  
 
+    <!-- Instructions on how to send the flower -->
      <section class="background-general">
          <div class="first-content">
             <h2>What's is nicer than a rose? A Cyber Rose.</h2>
-            <h3>Pick a flower and press the button below to send it!</h3>
+            <h3>Pick a flower and press the button below it to send!</h3>
             <img src="./images/cyber-arrow.png">
         </div>
      </section>
 
+     <!-- Galery of flowers -->
     <section class="background-general">
+
         <div class="flower-images">
-            <img src="./images/flower-1.png" class="flower">
-            <img src="./images/flower-2.png"class="flower">
+
+            <input type="image" src="./images/flower-1.png" class="flower" onclick="OpenOne()" alt="image of of cyber rose number one"/>
+            <input type="image" src="./images/flower-2.png" class="flower" onclick="OpenTwo()" alt="image of of cyber rose number two"/> 
+
+           
+            <div class="button-email">
+                <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
+                <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
+            </div>
+
+            <input type="image" src="./images/flower-3.png" class="flower" onclick="OpenThree()" alt="image of of cyber rose number tree"/>
+            <input type="image" src="./images/flower-4.png" class="flower" onclick="OpenFour()" alt="image of of cyber rose four"/>
 
             <div class="button-email">
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
             </div>
 
-            <img src="./images/flower-3.png" class="flower">
-            <img src="./images/flower-4.png" class="flower">
-
-            <div class="button-email">
-                <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
-                <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
-            </div>
-
-            <img src="./images/flower-5.png" class="flower">
-            <img src="./images/flower-6.png" class="flower">
+            <input type="image" src="./images/flower-5.png" class="flower" onclick="OpenFive()" alt="image of of cyber rose number five"/>
+            <input type="image" src="./images/flower-6.png" class="flower" onclick="OpenSix()" alt="image of of cyber rose number six"/>
 
             <div class="button-email">
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a> 
             </div>
 
-            <img src="./images/flower-7.png" class="flower">
-            <img src="./images/flower-8.png" class="flower">
+            <input type="image" src="./images/flower-7.png" class="flower" onclick="OpenSeven()" alt="image of of cyber rose number seven"/>
+            <input type="image" src="./images/flower-8.png" class="flower" onclick="OpenEight()" alt="image of of cyber rose number eight"/>
 
             <div class="button-email">
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
             </div>
 
-            <img src="./images/flower-9.png" class="flower">
-            <img src="./images/flower-10.png" class="flower">
+            <input type="image" src="./images/flower-9.png" class="flower" onclick="OpenNine()" alt="image of of cyber rose number nine"/>
+            <input type="image" src="./images/flower-10.png" class="flower" onclick="OpenTen()" alt="image of of cyber rose number ten"/>
 
             <div class="button-email">
                 <a href="mailto:?subject=Your Cyber Rose Awaits!%20&amp;body=Click on the link to get your rose: %20" target="_blank"><img src="./images/send-button-img.png" alt="envelope"></a>
@@ -75,12 +81,13 @@
         </div>
     </section>
 
+    <!-- Information about images creation -->
     <footer class="background-general">
             <div class="footer-main-content">
                 <img src="./images/cyber-arrow.png" class="img-arrow">
                 <div class="footer-text">
                     <h4>Like the flowers?</h4>
-                    <p>Recomend CYBER.ROSE to a friend!</p>
+                    <p>All images are made by AI. Check out Midjourney.com!</p>
                 </div>
             </div>
        
