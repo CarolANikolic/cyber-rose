@@ -1,6 +1,7 @@
-# Cyber Rose <img src=./images/logo.png> 
+# Cyber Rose <img src="./images/logo.png" width="15%" alt="logo">
 
-## A Cyber Rose Digital Flower Galery
+
+## A Digital Flower Galery
 
 Hello there! 👋
 
@@ -17,9 +18,9 @@ The intention of this projected was to do a quick experiment with HTML, CSS and 
 
 It's easy as 1-2-3 to send a Cyber Rose:
 
-_1._ Select a flower you like by clicking on the button below it. It will automatically open your default email client;
-_2._ Add the email address of the recipent in the "To:" field;
-_3_ Personalize subject and message as your wish and press send.
+**1.** Select a flower you like by clicking on the button below it. It will automatically open your default email client;</br>
+**2.** Add the email address of the recipent in the "To:" field;</br>
+**3.** Personalize subject and message as your wish and press send.
 
 <div align="center">
 <img src="./images/flowers-buttons.png" width=30% alt="Desktop view of flowers selection">
@@ -35,16 +36,16 @@ Cyber Rose layout style was also designed to support mobile.
 
 ## Projet's Structure
 
->Conceptual design of the website and project
->Designing the website structure using Figma
->Creation of the images using AI for key visual resources
->Selection of Brand colors
->Designing the logo using Canva.com
->Adding text content and images for the main page in a coherent HTML structure
->Applying the style to the main page
->Creating a diferent html page for each flower
->Applying and recycling a diferent style for the selected flower page
->Adding button functionality
->Bringin the website live, using Netlify
->Adding hyperlinks to the email template 
+>Conceptual design of the website and project</br>
+>Designing the website structure using Figma</br>
+>Creation of the images using AI for key visual resources</br>
+>Selection of Brand colors</br>
+>Designing the logo using Canva.com</br>
+>Adding text content and images for the main page in a coherent HTML structure</br>
+>Applying the style to the main page</br>
+>Creating a diferent html page for each flower</br>
+>Applying and recycling a diferent style for the selected flower page</br>
+>Adding button functionality</br>
+>Bringin the website live, using Netlify</br>
+>Adding hyperlinks to the email template</br>
 
