@@ -34,6 +34,10 @@ Cyber Rose layout style was also designed to support mobile.
   <img src="./images/mobile-print.png" width=30% alt="Mobile view of Cyber Rose's galery">
 </div>
 
+## Try it out!
+
+Link to live website: https://cyberrose.netlify.app
+
 ## Projet's Structure
 
 >Conceptual design of the website and project</br>
